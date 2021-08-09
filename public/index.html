@@ -1,8 +1,25 @@
 <html>
   <head>
     <title>Hello there!</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(() => {
+        alert("You got this message immediately after reloaded.");
+      });
+    </script>
   </head>
   <body>
-    <h1>I'm groot!</h1>
+    <div id="by-id">
+      <h1>This text is green coloured.</h1>
+      <h1>This text is red coloured.</h1>
+    </div>
+    <div class="by-class">
+      <h1>This text has text of "ABCD"</h1>
+      <h1>This text has text of "EFGH"</h1>
+    </div>
+    <div attr="by-attr">
+      <h1>This text has font-size of 14</h1>
+      <h1>This text has font-size of 72</h1>
+    </div>
   </body>
 </html>
