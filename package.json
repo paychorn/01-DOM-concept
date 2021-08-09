@@ -1,0 +1,22 @@
+{
+  "name": "01-dom-concept",
+  "version": "0.0.0-instern",
+  "description": "Chapter 01: DOM concept by using jQuery",
+  "main": " ",
+  "scripts": {
+    "start": "serve -p 3000 public/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/insTern-Aug-2021/01-DOM-concept.git"
+  },
+  "author": "Tanakorn Pisnupoomi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/insTern-Aug-2021/01-DOM-concept/issues"
+  },
+  "homepage": "https://github.com/insTern-Aug-2021/01-DOM-concept#readme",
+  "dependencies": {
+    "serve": "^12.0.0"
+  }
+}
